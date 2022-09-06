@@ -16,25 +16,37 @@
         </div>
         <div class="right">
             <form class="form">
-           <div> <label for="text"><b>Height(feet)</b></label>
-        <input type="text" id="feet" name="feet">
+
+           <div> <label for="height">Height(feet)</label>
+            <input type="number" id="feet"> 
         </div><br><br>
-        <div> <label for="text"><b>Height (Inches)</b></label>
-            <input type="text" id="inches" name="inches">
+        <div> <label for="weight">Height(inches)</label>
+            <input type="number"  id="inch">
             </div><br><br>
-            <div> <label for="text"><b>Weight (Kg.)</b></label>
-                <input type="text" id="kg" name="kg">
+            <div>  <label for="weight">Weight(kg)</label>
+                <input type="number" id="weight">
                 </div><br><br>
-                <div> <label for="text"><b>Gender</b></label>
-                    <input type="text" id="gender" name="gender">
+                <div> <label for="gender">Gender</label>
+                    <input type="text"  id="gender" >
                     </div><br><br>
-                    <div> <label for="text"><b>Age</b></label>
-                        <input type="text" id="age" name="age">
+                    <div> <label for="Age">Age</label>
+                        <input type="number" id="Age">
                         </div>
         <h5 class="header"><b>BMI RESULT</b> </h5>
-        <button class="btn">Calculate BMI</button>
+           
+       
             </form>
+             <!-- The Result display area-->
+        <div align="center" class="result">
+            <div id="result">00.00</div>
+            <p class="comment"></p>
+          </div>
+          <button class="btn" id="calculate">Calculate BMI</button>
         </div>
     </div>
+    <footer>
+
+    </footer>
+    <script src="bmi.js"></script>
 </body>
 </html>
