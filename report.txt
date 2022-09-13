@@ -1,0 +1,3 @@
+Layout has a bit of an issue. Do not copy and paste random figma absolute or relative positions.
+Your javascript code had a bunch of if statements, you could just use elseif or use a function to abstract the core functionality.
+Also, ensure you properly structure and comment on your code next time for better readability.
